@@ -1,4 +1,4 @@
-CODE, Function
+COMMANDS, FUNCTION
 clc, Clear command window
 clear (all), Clear all variables
 close all, Close all plots
