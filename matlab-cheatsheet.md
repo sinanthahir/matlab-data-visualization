@@ -2,6 +2,7 @@
 
 #### Basic Commands
 | Commands | Functions |
+| -------- | --------- |
 | clc | Clear command window |
 | clear (all) | Clear all variables |
 | close all | Close all plots |
@@ -19,6 +20,7 @@
 #### Keyboard Shortcuts
 
 | Shortcut | Function |
+| -------- | --------- |
 | F1 | Help/documentation |
 | F5 | Run code |
 | F9 | Run highlighted code |
@@ -35,6 +37,7 @@
 #### Entries of Matrices and Vectors
 
 | Entrices | Functions |
+| -------- | --------- |
 | abs(x) | The absolute value of 'x' |
 | eps | Floating point accuracy |
 | sum(x) | Sums elements in x |
@@ -46,6 +49,7 @@
 #### Cell Manipulation
 
 | Command | Function |
+| -------- | --------- |
 | x = cell(a,b) | a * b cell array |
 | X{n,m} | Access cell element n,m |
 | cell2mat(x) | Transforms cell to matrix |
@@ -53,6 +57,7 @@
 #### Operations on Matrices and Vectors
 
 | Operation | Function |
+| -------- | --------- |
 | x = 5 | Add 5 to every element of x |
 | x + y | Elementwise addition of two vectors x and y |
 | 10 * x | Multiply every element of x by 10 |
@@ -70,6 +75,7 @@
 #### Plotting
 
 | Command | Function |
+| -------- | --------- |
 | plot(x,y) | Plot 'y' versus 'x' |
 | loglog(x,y) | Plot 'y' versus 'x' on a log-log scale |
 | semilogx(x,y) | Plot 'y' versus 'x' with x on a log scale |
@@ -88,3 +94,13 @@
 | set(fig1, 'Marker', '.') | Change marker type |
 | set(fig1, 'MarkerSize', 10) | Change marker size |
 | set(fig1, 'FontSize', 14) | Change font size |
+
+#### Debug
+
+| Command | Function |
+| -------- | --------- |
+| tic | Starts timer |
+| toc | Stops timer |
+| try/catch | Good to track errors |
+| dbclear | Clear breakpoints |
+| break | Terminates execution of for/while loop |
